@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Audited	lib/ruby_audit/audited.rb	/^  module Audited$/;"	m	class:RubyAudit
+Auditor	lib/ruby_audit/auditor.rb	/^  class Auditor$/;"	c	class:RubyAudit
+DSL	lib/ruby_audit/dsl/injector.rb	/^  module DSL$/;"	m	class:RubyAudit
+Injector	lib/ruby_audit/dsl/injector.rb	/^    module Injector$/;"	m	class:RubyAudit.DSL
+Processor	lib/ruby_audit/processor.rb	/^  class Processor$/;"	c	class:RubyAudit
+RubyAudit	lib/ruby_audit.rb	/^module RubyAudit$/;"	m
+RubyAudit	lib/ruby_audit/audited.rb	/^module RubyAudit$/;"	m
+RubyAudit	lib/ruby_audit/auditor.rb	/^module RubyAudit$/;"	m
+RubyAudit	lib/ruby_audit/dsl/injector.rb	/^module RubyAudit$/;"	m
+RubyAudit	lib/ruby_audit/processor.rb	/^module RubyAudit$/;"	m
+RubyAudit	lib/ruby_audit/version.rb	/^module RubyAudit$/;"	m
+VERSION	lib/ruby_audit/version.rb	/^  VERSION = "0.1.0"$/;"	c
+_new_	lib/ruby_audit/dsl/injector.rb	/^            def _new_#{callback}$/;"	f	class:RubyAudit.DSL.inject_callback_method
+audit	lib/ruby_audit/audited.rb	/^    def audit(*actions)$/;"	f	class:RubyAudit.Audited
+call	lib/ruby_audit/auditor.rb	/^    def self.call(klass, *events)$/;"	F	class:RubyAudit.Auditor
+execute	lib/ruby_audit/processor.rb	/^    def execute$/;"	f	class:RubyAudit.Processor
+initialize	lib/ruby_audit/auditor.rb	/^    def initialize(klass, *events)$/;"	f	class:RubyAudit.Auditor
+inject_audit_processor	lib/ruby_audit/dsl/injector.rb	/^      def inject_audit_processor(klass, callback_name)$/;"	f	class:RubyAudit.DSL.Injector
+inject_callback	lib/ruby_audit/dsl/injector.rb	/^      def inject_callback(klass, event)$/;"	f	class:RubyAudit.DSL.Injector
+inject_callback_method	lib/ruby_audit/dsl/injector.rb	/^      def inject_callback_method(klass, callback, process_method)$/;"	f	class:RubyAudit.DSL
+setup	lib/ruby_audit/auditor.rb	/^    def setup$/;"	f	class:RubyAudit.Auditor

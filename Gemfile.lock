@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    ruby-audit (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.0.1)
+    diff-lcs (1.3)
+    pg (1.1.4)
+    rake (10.5.0)
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.2)
+      rspec-support (~> 3.8.0)
+    rspec-expectations (3.8.4)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.2)
+    sequel (5.23.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  byebug
+  pg
+  rake (~> 10.0)
+  rspec (~> 3.0)
+  ruby-audit!
+  sequel
+
+BUNDLED WITH
+   1.17.2
