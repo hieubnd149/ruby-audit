@@ -25,7 +25,7 @@ module RubyAudit
         method_name
       end
 
-      def self.inject_callback_method(klass, callback, process_method)
+      def self.inject_callback_method(klass, callback, processor_method)
         if klass.respond_to?(callback)
           klass.class_eval <<-EORUBY, __FILE__, __LINE__ + 1
             def _new_#{callback}

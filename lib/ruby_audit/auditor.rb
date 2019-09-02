@@ -2,11 +2,11 @@
 
 module RubyAudit
   class Auditor
-    def self.call(klass, *events)
+    def self.call(klass, events)
       new(klass, events).setup
     end
 
-    def initialize(klass, *events)
+    def initialize(klass, events)
       @klass = klass
       @events = events
     end

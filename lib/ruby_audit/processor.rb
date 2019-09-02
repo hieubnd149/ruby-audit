@@ -2,7 +2,7 @@
 
 module RubyAudit
   class Processor
-    def execute
+    def self.execute
       puts 'I am audited'
     end
   end
